@@ -24,6 +24,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Resource Group
 - Virtual Network
 - Subnet (Windows & Linux)
+- Network Security Group
 
 <h2>Actions and Observations</h2>
 

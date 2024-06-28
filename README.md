@@ -44,7 +44,7 @@ select the operating system or image as Windows 10 Pro, version 22H2</p>
 <p>
 <h3>&#9313; Create a second Virtual Machine on Azure </h3>
 <p>The next step is to create another Virtual Machine on Azure. This time using Linux as the image, also shown below as Ubuntu Server 20.04 LTS - x64 Gen 2</p>
-<img width="700" src="https://imgur.com/Jaa9wz6.png">
+<img width="800" src="https://imgur.com/Jaa9wz6.png">
 
 </p>
 <p>
@@ -52,7 +52,8 @@ select the operating system or image as Windows 10 Pro, version 22H2</p>
 <p>Open your Remote Desktop app and paste VM-1's IP address, then login using the credentials made to create the virtual machine</p>
 <p>
 <img width="500" src="https://imgur.com/UNSM5uA.png">
-
+<br />
+<br />
 <img width="500" src="https://imgur.com/FIK7DKP.png">
 
 </p>
@@ -60,15 +61,15 @@ select the operating system or image as Windows 10 Pro, version 22H2</p>
 <h3>&#9315; Install Wireshark</h3>
 <p>Within your Windows 10 VM, type www.wireshark.org in browser, then download and install Windows x64 Installer</p>
 <p>
-<img width="500" src="https://imgur.com/DRodXGX.png">
+<img width="400" src="https://imgur.com/DRodXGX.png">
 
 </p>
 <br />
 <h3>&#9316; Filter for ICMP Traffic </h3>
 <p> Open Wireshark and filter for ICMP traffic. Click on the blue shark fin in the corner of the app, then proceed to type "icmp" within the green search bar</p>
-<p> <img width="750" src="https://imgur.com/lQugkgE.png">
+<p> <img width="650" src="https://imgur.com/lQugkgE.png">
 <br>
-<br> <img width="750" src="https://imgur.com/kjnfpQI.png">
+<br> <img width="650" src="https://imgur.com/kjnfpQI.png">
 
 <br />
 <h3>&#9317; Ping Private Address of VM-2 from within Windows 10 </h3>

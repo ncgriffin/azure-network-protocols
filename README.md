@@ -208,7 +208,7 @@ DHCP is essential because it assigns IP addresses and network settings to device
 <img width="650" src="https://imgur.com/usuc3SM.png">
 
 <br> 
-<h3>&#9323; Filter through DNS traffic</h3>
+<h3>&#9324; Filter through DNS traffic</h3>
 DNS translates human-friendly names into IP addresses that computers use to identify each other on the network 
 <br> 
 <br />

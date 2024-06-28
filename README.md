@@ -190,7 +190,7 @@ To sum up the reasoning for these commands, the function is to list the folders 
 Another way to filter through SSH traffic is through "tcp.port == 22" in the green search bar of Wireshark. This is possible because SSH uses Port 22. We can see in the picture below that tcp port 22 shows SSH traffic. Secure Shell (ssh) essentially servers as the more direct approach
 
 <br />
-<img width="650" src="https://imgur.com/8bDJmgj.png">
+<img width="850" src="https://imgur.com/8bDJmgj.png">
 
 <br> 
 <h3>&#9323; Observe DHCP traffic through Wireshark</h3>
@@ -200,13 +200,13 @@ DHCP is essential because it assigns IP addresses and network settings to device
 - In Wireshark, type "dhcp" in the search bar in order to filter for this specific traffic
 <br> 
 <br />
-<img width="650" src="https://imgur.com/ns3bZGW.png">
+<img width="1050" src="https://imgur.com/ns3bZGW.png">
 <br> 
 <br />
 - Next, in Powershell we will request a new IP address from the DHCP server. To do this type "ipconfig /renew" refreshing the network configuration for the device. You should see some traffic appear in Wireshark
 <br> 
 <br />
-<img width="650" src="https://imgur.com/usuc3SM.png">
+<img width="850" src="https://imgur.com/usuc3SM.png">
 
 <br> 
 <h3>&#9324; Filter through DNS traffic</h3>
@@ -217,13 +217,17 @@ DNS translates human-friendly names into IP addresses that computers use to iden
 
 <br> 
 <br />
-<img width="650" src="https://imgur.com/AX41Nuy.png">
+<img width="1050" src="https://imgur.com/AX41Nuy.png">
 <br> 
 <br />
 - In the command line, type in "nslookup www.google.com". This queries the DNS to obtain the IP address associated with Google
 <br> 
 <br />
-<img width="650" src="https://imgur.com/PV7SPIV.png">
+<img width="850" src="https://imgur.com/PV7SPIV.png">
+
+<h2> Final Thoughts </h2>
+
+A project like this allows for one to understand the intricacies of network traffic analysis, the importance of various network protocols, and how to use tools like Wireshark for diagnostics. It also demonstrates the significance of network security through hands-on experience with Network Security Groups (NSGs), highlighting how to mange and secure network traffic effectively. This knowledge os crucial for maintaining secure and robust network environments. 
 
 
 

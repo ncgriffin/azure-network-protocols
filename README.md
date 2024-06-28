@@ -172,8 +172,57 @@ This allows us to remotely access VM-2. In the command line, we will write a few
 To sum up the reasoning for these commands, the function is to list the folders and files in the current directory 
 
 <br />
-<img width="650" src="https://imgur.com/Xf6VFiH.png">
+<img width="650" src="https://imgur.com/dHgz5w3.png">
 
+<br />
+<br />
+
+<img width="650" src="https://imgur.com/btVeirD.png">
+
+<br />
+<br />
+<img width="650" src="https://imgur.com/1HXz9xJ.png">
+
+<br />
+<br />
+
+Another way to filter through SSH traffic is through "tcp.port == 22" in the green search bar of Wireshark. This is possible because SSH uses Port 22. We can see in the picture below that tcp port 22 shows SSH traffic. Secure Shell (ssh) essentially servers as the more direct approach
+
+<br />
+<img width="650" src="https://imgur.com/8bDJmgj.png">
+
+<br> 
+<h3>&#9323; Observe DHCP traffic through Wireshark</h3>
+DHCP is essential because it assigns IP addresses and network settings to devices, enabling efficient communication
+
+<br> 
+- In Wireshark, type "dhcp" in the search bar in order to filter for this specific traffic
+<br> 
+<br />
+<img width="650" src="https://imgur.com/ns3bZGW.png">
+<br> 
+<br />
+- Next, in Powershell we will request a new IP address from the DHCP server. To do this type "ipconfig /renew" refreshing the network configuration for the device. You should see some traffic appear in Wireshark
+<br> 
+<br />
+<img width="650" src="https://imgur.com/usuc3SM.png">
+
+<br> 
+<h3>&#9323; Filter through DNS traffic</h3>
+DNS translates human-friendly names into IP addresses that computers use to identify each other on the network 
+<br> 
+<br />
+- Once more search "dns" in Wireshark; you'll see some DNS traffic already running. Refresh by selecting the green shark fin to clear traffic spamming the server
+
+<br> 
+<br />
+<img width="650" src="https://imgur.com/AX41Nuy.png">
+<br> 
+<br />
+- In the command line, type in "nslookup www.google.com". This queries the DNS to obtain the IP address associated with Google
+<br> 
+<br />
+<img width="650" src="https://imgur.com/PV7SPIV.png">
 
 
 

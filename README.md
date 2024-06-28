@@ -75,29 +75,29 @@ select the operating system or image as Windows 10 Pro, version 22H2</p>
 <h3>&#9317; Ping Private Address of VM-2 from within Windows 10 </h3>
 <p> Retrive the private IP address of VM-2 back in the Azure portal</p>
 <br> 
-<img width="550" src="https://imgur.com/qSnkdeu.png">
+<img width="450" src="https://imgur.com/qSnkdeu.png">
 
 <br> 
 <br> 
 Once you've located the IP address, open Command Line or Powershell and use the Private IP Address of VM-2. Type "ping 10.0.0.5" to observe ICMP traffic within Wireshark
 <br> 
 <br />
-<img width="650" src="https://imgur.com/NzVRif2.png">
+<img width="850" src="https://imgur.com/NzVRif2.png">
 <br> 
 <br> 
 
 Now we will attempt to ping a website such as Google and observe ICMP traffic. Type "ping www.google.com -4" 
 
 <br />
-<img width="650" src="https://imgur.com/r3oVwgP.png">
+<img width="850" src="https://imgur.com/r3oVwgP.png">
 
 <br />
 <h3>&#9318; Initiate Perpetual Ping from VM-1 to VM-2 </h3>
 <p> Type "ping 10.0.0.5 -t" this will send a non-stop ping between the two virtual machines</p>
 <br> 
-<img width="550" src="https://imgur.com/4ebYoKg.png">
+<img width="850" src="https://imgur.com/4ebYoKg.png">
 <br>
-<br> <img width="650" src="https://imgur.com/mqwyvWl.png">
+<br> <img width="850" src="https://imgur.com/mqwyvWl.png">
 
 <br />
 <h3>&#9319; Disable ICMP traffic on VM-2's firewall </h3>
@@ -111,17 +111,17 @@ In Azure portal, search Network security groups -> VM-2 -> Settings (Inbound sec
 - Add a rule with Protocol (ICMP), Action (Deny), Priority (200), and Name (DENY_ICMP_PING_FROM_ANYWHERE)
 
 <br />
-<img width="500" src="https://imgur.com/SRGfi7o.png">
+<img width="450" src="https://imgur.com/SRGfi7o.png">
 <br />
-<img width="500" src="https://imgur.com/gS5dtHg.png">
+<img width="450" src="https://imgur.com/gS5dtHg.png">
 <br />
-<img width="500" src="https://imgur.com/57TaBog.png">
+<img width="450" src="https://imgur.com/57TaBog.png">
 
 <h3>&#9320; Observe disabled traffic in Wireshark & Powershell</h3>
 <br> 
-<img width="650" src="https://imgur.com/FQiWzOk.png">
+<img width="800" src="https://imgur.com/FQiWzOk.png">
 <br> 
-<img width="650" src="https://imgur.com/pWjDGU7.png">
+<img width="800" src="https://imgur.com/pWjDGU7.png">
 
 <br> 
 <h3>&#9321; Re-Enable ICMP traffic</h3>
@@ -147,7 +147,7 @@ Back in Powershell, we can see that the command-line has began it's nonstop ping
 <h3>&#9322; Explore SSH traffic</h3>
 The next step is to now filter by SSH (secure shell). This essentially serves it's purpose for remote access, similar to Remote Desktop
 <br />
-<img width="650" src="https://imgur.com/DC98MNI.png">
+<img width="1050" src="https://imgur.com/DC98MNI.png">
 
 <br />
 <br />
@@ -156,7 +156,7 @@ Instead of pinging VM-2, we will SSH into the second virtual machine through VM-
 
 <br />
 <br />
-<img width="650" src="https://imgur.com/Xf6VFiH.png">
+<img width="850" src="https://imgur.com/Xf6VFiH.png">
 
 <br />
 <br />
@@ -173,16 +173,16 @@ This allows us to remotely access VM-2. In the command line, we will write a few
 To sum up the reasoning for these commands, the function is to list the folders and files in the current directory 
 
 <br />
-<img width="650" src="https://imgur.com/dHgz5w3.png">
+<img width="850" src="https://imgur.com/dHgz5w3.png">
 
 <br />
 <br />
 
-<img width="650" src="https://imgur.com/btVeirD.png">
+<img width="850" src="https://imgur.com/btVeirD.png">
 
 <br />
 <br />
-<img width="650" src="https://imgur.com/1HXz9xJ.png">
+<img width="850" src="https://imgur.com/1HXz9xJ.png">
 
 <br />
 <br />

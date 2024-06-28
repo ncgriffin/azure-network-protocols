@@ -73,7 +73,7 @@ select the operating system or image as Windows 10 Pro, version 22H2</p>
 
 <br />
 <h3>&#9317; Ping Private Address of VM-2 from within Windows 10 </h3>
-<p> Retrive the private IP address of VM-2 back in the Azure portal</p>
+<p> Retrieve the private IP address of VM-2 based back in the Azure portal</p>
 <br> 
 <img width="450" src="https://imgur.com/qSnkdeu.png">
 
@@ -227,7 +227,7 @@ DNS translates human-friendly names into IP addresses that computers use to iden
 
 <h2> Final Thoughts </h2>
 
-A project like this allows for one to understand the intricacies of network traffic analysis, the importance of various network protocols, and how to use tools like Wireshark for diagnostics. It also demonstrates the significance of network security through hands-on experience with Network Security Groups (NSGs), highlighting how to mange and secure network traffic effectively. This knowledge os crucial for maintaining secure and robust network environments. 
+A project like this allows for one to understand the intricacies of network traffic analysis, the importance of various network protocols, and how to use tools like Wireshark for diagnostics. It also demonstrates the significance of network security through hands-on experience with Network Security Groups (NSGs), highlighting how to mange and secure network traffic effectively. This knowledge is crucial for maintaining secure and robust network environments. 
 
 
 

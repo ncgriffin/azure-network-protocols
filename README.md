@@ -187,7 +187,7 @@ To sum up the reasoning for these commands, the function is to list the folders 
 <br />
 <br />
 
-Another way to filter through SSH traffic is through "tcp.port == 22" in the green search bar of Wireshark. This is possible because SSH uses Port 22. We can see in the picture below that tcp port 22 shows SSH traffic. Secure Shell (ssh) essentially servers as the more direct approach
+Another way to filter through SSH traffic is through "tcp.port == 22" in the green search bar of Wireshark. This is possible because SSH uses Port 22. We can see in the picture below that tcp port 22 shows SSH traffic. Secure Shell (ssh) essentially serves as the more direct approach
 
 <br />
 <img width="850" src="https://imgur.com/8bDJmgj.png">

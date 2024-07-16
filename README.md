@@ -227,7 +227,7 @@ DNS translates human-friendly names into IP addresses that computers use to iden
 
 <h2> Final Thoughts </h2>
 
-A project like this allows for one to understand the intricacies of network traffic analysis, the importance of various network protocols, and how to use tools like Wireshark for diagnostics. It also demonstrates the significance of network security through hands-on experience with Network Security Groups (NSGs), highlighting how to mange and secure network traffic effectively. This knowledge is crucial for maintaining secure and robust network environments. 
+A project like this allows for one to understand the intricacies of network traffic analysis, the importance of various network protocols, and how to use tools like Wireshark for diagnostics. It also demonstrates the significance of network security through hands-on experience with Network Security Groups (NSGs), highlighting how to manage and secure network traffic effectively. This knowledge is crucial for maintaining secure and robust network environments. 
 
 
 
